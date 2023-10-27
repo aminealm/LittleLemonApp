@@ -7,7 +7,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 <!-- !!!!! important -->
 ## use this two commands before run the npm start :
-json-server --watch data/db.json --port 8000
+json-server --watch data/db.json --port 8000 
+
+
+
 json-server data/db.json -m ./node_modules/json-server-auth -r data/routes.json --port 8001
 <!-- !!!!!! -->
 ### `npm start`
